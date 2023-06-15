@@ -1,5 +1,5 @@
 // Write your JS code here
-import {Link, withRouter} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 import './index.css'
 
 const Header = () => {
@@ -15,4 +15,4 @@ const Header = () => {
   </div>
 }
 
-export default withRouter(Header)
+export default Header

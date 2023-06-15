@@ -1,4 +1,5 @@
 // Write your JS code here
+import {withRouter} from 'react-router-dom'
 import Cookies from 'js-cookie'
 import './index.css'
 
@@ -16,4 +17,4 @@ const Logout = props => {
   )
 }
 
-export default Logout
+export default withRouter(Logout)
