@@ -2,8 +2,8 @@
 import {Link} from 'react-router-dom'
 import './index.css'
 
-const Header = () => {
-  ;<div className="head-cont">
+const Header = () => (
+  <div className="head-cont">
     <ul className="list-cont">
       <Link to="/">
         <li>Home</li>
@@ -13,6 +13,6 @@ const Header = () => {
       </Link>
     </ul>
   </div>
-}
+)
 
 export default Header
